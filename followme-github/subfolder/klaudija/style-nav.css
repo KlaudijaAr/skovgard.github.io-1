@@ -1,0 +1,222 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    background-color:whitesmoke;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.smallersize {
+    font-size: 16px;
+}
+
+header,
+main,
+footer {
+    padding: 2%;
+}
+
+
+header {
+    height: auto;
+    background-color: black;
+}
+
+
+#navigation-desktop {
+    display: none;
+}
+
+#navigation-icon {
+    text-align: right;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+#navigation-mobile {
+    text-align: center;
+    background-color: black;
+    font-size: 1.4em;
+}
+
+#navigation-mobile li {
+    padding: 0.8em;
+    border-bottom: 1px solid #fff;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: black;
+    padding: 4px;
+    color: #fff;
+}
+
+main {
+    background-color: gainsboro;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#image {
+    background-color: gainsboro;
+}
+
+#text {
+    background-color: gainsboro;
+
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    height: auto;
+    background-color: gray;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+h2{
+    padding-left: 140px;
+}
+
+@media only screen and (min-width: 300px) {
+    header {
+        background-color: black;
+    }
+
+    #image {
+        overflow: auto;
+    }
+
+    #imageandtext {
+        width: 50%;
+        float: left;
+        margin-right: 2%;
+    }
+
+}
+
+@media only screen and (min-width: 480px) {
+    header {
+        background-color: black;
+    }
+
+    #navigation-desktop {
+        display: block;
+        text-align: center;
+    }
+
+    #navigation-desktop li {
+        display: inline;
+        font-size: 1.3em;
+        margin: 0.3em;
+    }
+
+    #navigation-desktop li a {
+        padding: 0.5em;
+    }
+
+    #navigation-icon {
+        display: none;
+    }
+
+    #navigation-mobile {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 520px) {
+    header {
+        background-color: black;
+    }
+
+    #imageandtext {
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    header {
+        background-color: black;
+    }
+
+    #flex {
+        display: flex;
+    }
+
+    #image {
+        width: 60%;
+    }
+
+    #text {
+        width: 40%;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        header {
+            background-color: black;
+        }
+
+        #wrapper {
+            width: 1000px;
+            margin: 0 auto;
+
+        }
+
+    }
+
+    @media only screen and (min-width: 1024px) {
+        header {
+            background-color: black;
+        }
+
+        #navigation-desktop {
+            text-align: center;
+        }
+
+        #navigation-desktop li {
+            display: inline;
+            font-size: 2em;
+            margin: 0.3em;
+        }
+
+        #navigation-desktop li a {
+            background-color: black;
+            padding: 0em;
+        }
+
+        #navigation-desktop li a:hover {
+            text-decoration: underline;
+
+
+
+        }
